@@ -28,7 +28,7 @@ nav a {
   text-decoration: none;
 }
 
-nav button {
+.secondaryBtn {
   background-color: white;
   border: 2px solid #1d825b;
   border-radius: 8px;
@@ -53,4 +53,42 @@ nav button {
   height: auto;
   margin: auto;
   width: 75%;
+}
+
+.contentContainer {
+  padding: 0 80px;
+}
+
+.aboutUsBtn {
+  background-color: #1d825b;
+  color: white;
+  font-size: 18px;
+  height: 60px;
+  width: 200px;
+}
+
+.contentContainer span {
+  color: #1d825b;
+}
+
+.contentContainer p {
+  color: #777;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 750px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
 }
