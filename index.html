@@ -19,7 +19,7 @@
         <a href="#">Services</a>
         <a href="#">Portfolio</a>
         <a href="#">Contact Us</a>
-        <button class="secondaryBtn">Book Now</button>
+        <button id="bookNow" class="secondaryBtn">Book Now</button>
       </nav>
     </header>
     <img src="assets/hero.jpg" alt="image of a camera looking at mountains" class="heroImg">
@@ -35,6 +35,22 @@
       <img src="assets/cameras.jpg" alt="image of cameras" class="contentImg">
     </div>
   </div>
+
+  <div id="bookNowModal" class="modal">
+    <div class="modal-content">
+      <button class="close">&times;</button>
+      <h3>Your info:</h3>
+      <div class="inputContainer">
+        <input id="nameInput" type="text" placeholder="name">
+        <input id="emailInput" type="text" placeholder="email">
+        <button class="submitBtn">Submit</button>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="./index.js"></script>
 </body>
 
 </html>
